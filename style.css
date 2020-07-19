@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-heading{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.col1{
+    border: 3px solid #000;
+    padding: 0;
+    margin: 10px;
+    float: left;
+    background: #aaa;
+}
+.col1 .heading{
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+    background: #daa;
+    width: 100px;
+    height: 30px;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    text-align: center;
+}
+.col1 .paragraph{
+    clear: right; 
+    margin-top: 40px;
+}
+.col2{
+    border: 3px solid #000;
+    padding: 0;
+    margin: 10px;
+    float: left;
+    background: #aaa;
+}
+.col2 .heading{
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+    background: #c44;
+    width: 100px;
+    height: 30px;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    text-align: center;
+}
+.col2 .paragraph{
+    clear: right; 
+    margin-top: 40px;
+}
+.col3{
+    border: 3px solid #000;
+    padding: 0;
+    margin: 10px;
+    float: left;
+    background: #aaa;
+}
+.col3 .heading{
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+    background: #eda;
+    width: 100px;
+    height: 30px;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    text-align: center;
+}
+.col3 .paragraph{
+    clear: right; 
+    margin-top: 40px;
+}
+@media (min-width: 992px){
+    .col1{
+        width: 31%;
+    }
+    .col2{
+        width: 31%;
+    }
+    .col3{
+        width: 31%;
+    }
+}
+@media (min-width: 778px) and (max-width: 991px){
+    .col1{
+        width: 46%;
+    }
+    .col2{
+        width: 46%;
+    }
+    .col3{
+        width: 94%;
+    }
+}
+@media (max-width: 777px){
+    .col1{
+        width: 95%;
+    }
+    .col2{
+        width: 95%;
+    }
+    .col3{
+        width: 95%;
+    }
+}
